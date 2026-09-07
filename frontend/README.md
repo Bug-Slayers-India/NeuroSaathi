@@ -1,16 +1,16 @@
-# NeuroSaathi Frontend
+# React + Vite
 
-This Directory contains the User-Facing Interface of NeuroSaathi.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Responsibilities
+Currently, two official plugins are available:
 
-- Patient-Facing Application Interface
-- Cognitive Game Screens
-- Personal Memory Vault Interface
-- Voice Interaction Interface
-- Caregiver-Facing Views
-- Navigation and Reusable UI Components
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Goal
+## React Compiler
 
-Provide a Simple, Accessible, and User-Friendly Experience for Elderly Users and Caregivers.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
